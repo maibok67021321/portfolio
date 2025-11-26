@@ -7,91 +7,69 @@
 </head>
 <body>
 
-    <div class="container">
-        <!-- ส่วนหัวและข้อมูลแนะนำตัว -->
-        <header>
-            <h1>Portfolio</h1>
-        </header>
+    <h1>Portfolio</h1>
 
-        <!-- ข้อมูลส่วนตัว (Hero) -->
-        <div class="profile">
-            <img src="https://raw.githubusercontent.com/maibok67021321/maibok67021321.github.io/main/1c6abac6-095c-4bd8-8119-e8121ac781d9.jpg" alt="รูปโปรไฟล์" width="120">
-            <h2>Peerada Somtem</h2>
-        </div>
-
-        <!-- ส่วนเกี่ยวกับตัวเอง -->
-        <section>
-            <h4>About My self</h4>
-            <p>
-                "สิริรํฐ โตทุ้ย (ฟลุ๊ค) นิสิตมหาวิทยาลัยพะเยา สาขาวิทยาการคอมพิวเตอร์ ชั้นปีที่2"
-            </p>
-        </section>
-
-        <!-- ส่วนงานอดิเรก อาหาร และสิ่งที่อยากทำ -->
-        <div>
-            <!-- Hobby -->
-            <div>
-                <h4>Hobby</h4>
-                <p>นอน เล่นเกม ดูหนังอ่านโค๊ดแบบผ่านๆ</p>
-            </div>
-
-            <!-- Fav Food / Interested -->
-            <div>
-                <div>
-                    <h4>Fav Food</h4>
-                    <p>ชอบหมาล่า วุ้นเส้น หมูกระทะ เหล้าสู่กันฟัง</p>
-                </div>
-                <div>
-                    <h4>Interested</h4>
-                    <p>สนใจด้านการเขียนระบบ auto ต่างเช่นหุ่นอำนวยความสะดวกทั่วไป และฝึกการเขียนโค้ด backend</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- ประวัติการศึกษา -->
-        <section>
-            <h3>ประวัติการศึกษา</h3>
-            <div>
-                <table border="1" width="100%">
-                    <thead>
-                        <tr>
-                            <th>ระดับการศึกษา</th>
-                            <th>ชั้นปีที่</th>
-                            <th>สถาบัน</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>อนุบาล</td>
-                            <td>1-3</td>
-                            <td>โรงเรียนเซนนิโกลาส</td>
-                        </tr>
-                        <tr>
-                            <td>ประถมศึกษา</td>
-                            <td>1-2</td>
-                            <td>โรงเรียนเซนนิโกลาส</td>
-                        </tr>
-                        <tr>
-                            <td>ประถมศึกษา</td>
-                            <td>3-6</td>
-                            <td>โรงเรียนบ้านใหม่ไพรมณีมิตรภาพที่118</td>
-                        </tr>
-                        <tr>
-                            <td>มัธยมศึกษา</td>
-                            <td>1-6</td>
-                            <td>โรงเรียนสากเหล็กวิทยาคม</td>
-                        </tr>
-                        <tr>
-                            <td>ปัจจุบัน</td>
-                            <td>2</td>
-                            <td>มหาวิทยาลัยพะเยา</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </section>
-
+    <div>
+        <img src="https://raw.githubusercontent.com/maibok67021321/maibok67021321.github.io/main/1c6abac6-095c-4bd8-8119-e8121ac781d9.jpg" 
+             alt="รูปโปรไฟล์" width="120">
+        <h2>Peerada Somtem</h2>
     </div>
+
+    <section>
+        <h4>About My self</h4>
+        <p>"สิริรํฐ โตทุ้ย (ฟลุ๊ค) นิสิตมหาวิทยาลัยพะเยา สาขาวิทยาการคอมพิวเตอร์ ชั้นปีที่2"</p>
+    </section>
+
+    <div>
+        <h4>Hobby</h4>
+        <p>นอน เล่นเกม ดูหนังอ่านโค๊ดแบบผ่านๆ</p>
+
+        <h4>Fav Food</h4>
+        <p>ชอบหมาล่า วุ้นเส้น หมูกระทะ เหล้าสู่กันฟัง</p>
+
+        <h4>Interested</h4>
+        <p>สนใจด้านการเขียนระบบ auto ต่างเช่นหุ่นอำนวยความสะดวกทั่วไป และฝึกการเขียนโค้ด backend</p>
+    </div>
+
+    <section>
+        <h3>ประวัติการศึกษา</h3>
+        <table border="1" width="100%">
+            <thead>
+                <tr>
+                    <th>ระดับการศึกษา</th>
+                    <th>ชั้นปีที่</th>
+                    <th>สถาบัน</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>อนุบาล</td>
+                    <td>1-3</td>
+                    <td>โรงเรียนเซนนิโกลาส</td>
+                </tr>
+                <tr>
+                    <td>ประถมศึกษา</td>
+                    <td>1-2</td>
+                    <td>โรงเรียนเซนนิโกลาส</td>
+                </tr>
+                <tr>
+                    <td>ประถมศึกษา</td>
+                    <td>3-6</td>
+                    <td>โรงเรียนบ้านใหม่ไพรมณีมิตรภาพที่118</td>
+                </tr>
+                <tr>
+                    <td>มัธยมศึกษา</td>
+                    <td>1-6</td>
+                    <td>โรงเรียนสากเหล็กวิทยาคม</td>
+                </tr>
+                <tr>
+                    <td>ปัจจุบัน</td>
+                    <td>2</td>
+                    <td>มหาวิทยาลัยพะเยา</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
 
 </body>
 </html>
